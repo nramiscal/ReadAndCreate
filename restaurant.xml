@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8">
+
+<restaurant>
+
+    <breakfastMenu>
+        <item category="entree">
+            <name>Pancakes</name>
+            <description>3 buttermilk pancakes with maple syrup</description>
+            <price>$5.99</price>
+        </item>
+        <item category="entree">
+            <name>French Toast</name>
+            <description>Whole wheat french toast with berries and whipped cream</description>
+            <price>$5.99</price>
+        </item>
+        <item category="entree">
+            <name>Sausage</name>
+            <description>Homemade sage and apple chicken sausage</description>
+            <price>$4.99</price>
+        </item>
+        <item category="entree">
+            <name>Eggs</name>
+            <description>3 eggs, prepared as you like them</description>
+            <price>$3.99</price>
+        </item>
+        <item category="beverage">
+            <name>Orange Juice</name>
+            <description>Fresh squeezed Florida orange juice</description>
+            <price>$2.99</price>
+        </item>
+    </breakfastMenu>
+
+    <lunchMenu>
+        <item category="entree">
+            <name>Chicken Salad</name>
+            <description>A salad with chicken</description>
+            <price>$10.99</price>
+        </item>
+        <item category="entree">
+            <name>Chicken Sandwich</name>
+            <description>A sandwich with chicken</description>
+            <price>$12.99</price>
+        </item>
+        <item category="entree">
+            <name>Pastrami Sandwich</name>
+            <description>A sandwich made with pastrami</description>
+            <price>$13.99</price>
+        </item>
+        <item category="beverage">
+            <name>Coca-Cola</name>
+            <description>A fizzy cola soda</description>
+            <price>$0.99</price>
+        </item>
+        <item category="beverage">
+            <name>Orange Juice</name>
+            <description>A juice made with oranges</description>
+            <price>$0.99</price>
+        </item>
+    </lunchMenu>
+
+    <dinnerMenu>
+        <item category="entree">
+            <name>Rack of Lamb</name>
+            <description>New Zealand lamb chops with mint sauce</description>
+            <price>$27</price>
+        </item>
+        <item category="entree">
+            <name>Mushroom Risotto</name>
+            <description>Risotto with wild mushrooms</description>
+            <price>$15</price>
+        </item>
+        <item category="entree">
+            <name>Steak</name>
+            <description>Filet mignon with green beans amandine</description>
+            <price>$30</price>
+        </item>
+        <item category="entree">
+            <name>Roast chicken</name>
+            <description>Organic roast chicken with mashed potatoes and gravy</description>
+            <price>$18</price>
+        </item>
+        <item category="entree">
+            <name>Vegetarian Couscous</name>
+            <description>Whole wheat couscous with squash and mixed vegetables</description>
+            <price>$14</price>
+        </item>
+    </dinnerMenu>
+
+</restaurant>

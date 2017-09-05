@@ -1,0 +1,42 @@
+<!-- The XML prolog is optional. If it exists, it must come first in the document. -->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The XML Schema for the Servlet 2.4 deployment descriptor.  -->
+<web-app>
+    <!-- The optional display-name element specifies the Web application
+    display name, a short name that can be displayed by GUI tools. -->
+    <display-name>SimpleServletProject</display-name>
+
+    <!-- The servlet element contains the declarative data of a servlet. -->
+    <servlet>
+        <!-- Required. Defines the canonical name of the servlet, used to reference
+        the servlet definition elsewhere in the deployment descriptor. -->
+        <servlet-name>simpleServlet</servlet-name>
+        <!-- Required. The fully-qualified class name of the servlet. Use only one
+        of either the <servlet-class> tags or <jsp-file> tags in your servlet body. -->
+        <servlet-class>org.codingdojo.tutorial.SimpleServlet</servlet-class>
+    </servlet>
+
+    <!-- The servlet-mapping element defines a mapping between a servlet and a URL pattern. -->
+    <servlet-mapping>
+        <servlet-name>simpleServlet</servlet-name>
+        <!-- Describes a pattern used to resolve URLs. The portion of the URL after the http://host:port + ContextPath is compared to the <url-pattern> by WebLogic Server. If the patterns match, the filter mapped in this element is called. -->
+        <url-pattern>/simpleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>xmlServlet</servlet-name>
+        <servlet-class>or.codingdojo.tutorial.XmlServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>xmlServlet</servlet-name>
+        <url-pattern>/xmlServletpath</url-pattern>
+    </servlet-mapping>
+
+    <!-- The optional welcome-file-list element contains an ordered list of welcome-file elements. -->
+    <welcome-file-list>
+    <!-- Optional. File name to use as a default welcome file, such as index.html -->
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>
